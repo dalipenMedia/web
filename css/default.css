@@ -2758,3 +2758,60 @@ textarea.w-input, textarea.w-select {
     display: block;
     width: 100%
 }
+
+.zfr3Q {
+  text-decoration: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit
+}
+
+.zfr3Q {
+  -webkit-font-variant-ligatures: none;
+  font-variant-ligatures: none;
+  margin: 0;
+  outline: none;
+  position: relative
+}
+
+.zfr3Q[dir=rtl] {
+  text-align: right
+}
+
+.zfr3Q.FVr0A {
+  line-height: 1.4;
+  margin: 0
+}
+
+.n8H08c .TYR86d {
+  margin: 6px 0 0 0
+}
+.yaqOZd .zfr3Q:first-child,
+.zfr3Q:first-child,
+.BKnRcf:first-child,
+.UVNKR:first-child,
+.n8H08c .TYR86d:first-child {
+    margin-top: 0;
+    padding-top: 0
+}
+
+.yaqOZd .aP9Z7e:first-child+.zfr3Q,
+.aP9Z7e:first-child+.zfr3Q {
+    margin-top: 0;
+    padding-top: 0
+}
+
+.yaqOZd .aP9Z7e:first-child,
+.aP9Z7e:first-child {
+    margin-bottom: 0
+}
+
+.yaqOZd .zfr3Q:last-child,
+.zfr3Q:last-child,
+.BKnRcf:last-child,
+.UVNKR:last-child,
+.n8H08c .TYR86d:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0
+}
