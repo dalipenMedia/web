@@ -2233,7 +2233,6 @@ textarea.w-input, textarea.w-select {
 .hero-stack {
   background-color: #f3f8fa;
   background-image: linear-gradient(#f3f8fa, #fff);
-  border-bottom: 1px solid #e4ebf3;
   padding: 30px;
   position: relative;
 }
