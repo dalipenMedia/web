@@ -2731,3 +2731,30 @@ textarea.w-input, textarea.w-select {
 #w-node-e295f654-49ce-c241-17fb-001721939027-0e79bb26 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
+
+.tyJCtd {
+  position: relative;
+  width: 100%
+}
+
+.baZpAe::before {
+  bottom: 0;
+  content: "";
+  display: none;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0
+}
+.t3iYD {
+    overflow: hidden
+}
+
+.jXK9ad-SmKAyb {
+  width: 100%
+}
+.CENy8b {
+    display: block;
+    width: 100%
+}
