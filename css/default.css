@@ -2057,7 +2057,7 @@ textarea.w-input, textarea.w-select {
 .navbar-logo-left-container {
   z-index: 5;
   background-color: #0000;
-  width: 1030px;
+  width: 100%;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
