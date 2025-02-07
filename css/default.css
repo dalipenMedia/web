@@ -2345,6 +2345,12 @@ textarea.w-input, textarea.w-select {
 }
 
 .testimonial-image-four {
+  width: 100%;
+  height: auto; /* 保持宽高比 */
+  object-fit: contain; /* 确保图像完全显示且保持比例 */
+}
+
+.testimonial-image-four {
   vertical-align: baseline;
   object-fit: cover;
   width: 100%;
