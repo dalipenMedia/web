@@ -2816,11 +2816,6 @@ textarea.w-input, textarea.w-select {
   color: #444;
 }
 
-.description-container .features li::before {
-  content: "🔹 ";
-  color: #007bff;
-}
-
 .description-container .features ul {
   margin-left: 20px;
 }
