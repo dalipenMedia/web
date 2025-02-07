@@ -1799,7 +1799,7 @@ textarea.w-input, textarea.w-select {
 
 .w-nav {
   z-index: 1000;
-  background: #ddd;
+  background: #fff;
   position: relative;
 }
 
@@ -2164,6 +2164,7 @@ textarea.w-input, textarea.w-select {
 .nav-dropdown-list.w--open {
   padding-top: 10px;
   padding-bottom: 10px;
+  right: 0px;
 }
 
 .nav-dropdown-link {
@@ -2235,6 +2236,47 @@ textarea.w-input, textarea.w-select {
   background-image: linear-gradient(#f3f8fa, #fff);
   padding: 30px;
   position: relative;
+}
+
+.hero-stack h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.hero-stack div {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-stack p {
+  margin-bottom: 1.2rem;
+}
+
+.hero-stack strong {
+  font-weight: bold;
+}
+
+.hero-stack ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.hero-stack a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.hero-stack a:hover {
+  text-decoration: underline;
+}
+
+.hero-stack br {
+  margin-bottom: 1.5rem;
 }
 
 .container-2 {
