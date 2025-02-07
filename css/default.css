@@ -2774,18 +2774,6 @@ textarea.w-input, textarea.w-select {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-.hero-stack {
-  text-align: center;
-  padding: 50px 0;
-  background-color: #f5f5f5;
-}
-
-.hero-stack h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: #333;
-}
-
 .app-download-links {
   display: flex;
   justify-content: center;
@@ -2800,14 +2788,6 @@ textarea.w-input, textarea.w-select {
   width: 120px;
   height: auto;
   border-radius: 5px;
-}
-
-.hero-stack {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 50px 0;
-  background-color: #f5f5f5;
 }
 
 .hero-content {
