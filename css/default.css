@@ -2236,12 +2236,12 @@ textarea.w-input, textarea.w-select {
   background-image: linear-gradient(#f3f8fa, #fff);
   padding: 30px;
   position: relative;
+  text-align: center; /* 使h1和div在水平方向上居中 */
 }
 
 .hero-stack h1 {
   font-size: 2rem;
   margin-bottom: 20px;
-  text-align: center;
   color: #333;
 }
 
@@ -2250,7 +2250,8 @@ textarea.w-input, textarea.w-select {
   line-height: 1.8;
   color: #555;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto; /* 使div居中 */
+  text-align: left; /* 使div中的文本对齐左侧 */
 }
 
 .hero-stack p {
