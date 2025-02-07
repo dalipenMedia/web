@@ -1188,7 +1188,7 @@ textarea.w-input, textarea.w-select {
   clear: both;
   -webkit-tap-highlight-color: #0000;
   tap-highlight-color: #0000;
-  background: #ddd;
+  background: #fff;
   height: 300px;
   position: relative;
 }
