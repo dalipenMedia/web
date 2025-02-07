@@ -2849,18 +2849,3 @@ textarea.w-input, textarea.w-select {
   color: #333;
   margin: 0 0 0 20px; /* 添加左边距以与Logo保持一定距离 */
 }
-
-.app-download-links {
-  display: flex;
-  gap: 20px;
-}
-
-.app-download-link {
-  display: inline-block;
-}
-
-.app-icon {
-  width: 120px;
-  height: auto;
-  border-radius: 5px;
-}
