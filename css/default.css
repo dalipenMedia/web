@@ -2794,11 +2794,6 @@ textarea.w-input, textarea.w-select {
   gap: 30px;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-}
-
 .logo {
   width: 100px;
   height: auto;
@@ -2844,21 +2839,7 @@ textarea.w-input, textarea.w-select {
       text-align: center;
   }
 
-  .logo-container {
-      margin-bottom: 20px;
-  }
-
   .description-container {
       align-items: center;
   }
-}
-.title-container {
-  flex: 1;
-  text-align: center;
-}
-
-.title-container h1 {
-  font-size: 2.5rem;
-  color: #333;
-  margin: 0 0 0 20px; /* 添加左边距以与Logo保持一定距离 */
 }
