@@ -2770,12 +2770,6 @@ textarea.w-input, textarea.w-select {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-.app-download-links {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
 .app-download-link {
   display: inline-block;
 }
