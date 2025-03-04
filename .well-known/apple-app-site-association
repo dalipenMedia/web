@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "Z2NQ68KB9N.com.kolay.videomaker",
+        "paths": [ "/deeplink/*" ]
+      }
+    ]
+  }
+}
