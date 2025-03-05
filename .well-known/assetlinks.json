@@ -1,10 +1,11 @@
 [
-    {
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.kolay.videomaker",
-        "sha256_cert_fingerprints": ["22:79:5E:2B:4F:55:90:24:AF:46:5E:4F:CF:95:92:E0:1F:FB:FB:C4:2E:79:47:EE:1D:32:65:A4:E3:43:75:7F"]
-      }
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.kolay.videomaker",
+      "sha256_cert_fingerprints":
+        ["6A:3B:42:62:FF:83:EE:FF:F4:EE:A5:EE:19:42:99:86:F3:EE:27:13:E2:6C:D6:72:38:4A:CE:3E:96:D0:14:83"]
     }
-  ]
+  }
+]
