@@ -8,6 +8,12 @@ Disallow: /css/
 Disallow: /js/
 Disallow: /res/
 
+# Disallow problematic URLs with parameters
+Disallow: /*?from=AppAgg.com
+Disallow: /*?utm_campaign=*
+Disallow: /*?utm_medium=*
+Disallow: /*?utm_source=*
+
 # Allow important files
 Allow: /sitemap.xml
 Allow: /robots.txt

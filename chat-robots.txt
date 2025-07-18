@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /search
+Disallow: /home
+
+# Allow important files
+Allow: /robots.txt
+
+# Sitemap location (point to main domain)
+Sitemap: https://www.dalipen.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 2 

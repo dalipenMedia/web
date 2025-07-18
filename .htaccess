@@ -55,6 +55,24 @@ RewriteRule ^pt/kolay/kolay_user_agreement$ /pt/kolay/kolay_user_agreement.html 
 # Redirect old privacy policy URLs
 RewriteRule ^privacypolicy$ /privacy-policy.html [R=301,L]
 
+# Handle chat subdomain canonical issues
+RewriteCond %{HTTP_HOST} ^chat\.dalipen\.com$ [NC]
+RewriteRule ^search$ https://www.dalipen.com/ [R=301,L]
+RewriteCond %{HTTP_HOST} ^chat\.dalipen\.com$ [NC]
+RewriteRule ^home$ https://www.dalipen.com/ [R=301,L]
+
+# Handle UTM parameter canonical issues
+RewriteCond %{QUERY_STRING} ^from=AppAgg\.com&utm_campaign=AppAgg\.com&utm_medium=referral&utm_source=AppAgg\.com$ [NC]
+RewriteRule ^kolay$ /kolay.html [R=301,L]
+
+# Handle any UTM parameters on kolay page
+RewriteCond %{QUERY_STRING} ^.*utm_.*=.*$ [NC]
+RewriteRule ^kolay$ /kolay.html [R=301,L]
+
+# Handle AppAgg.com referral parameters
+RewriteCond %{QUERY_STRING} ^.*from=AppAgg\.com.*$ [NC]
+RewriteRule ^kolay$ /kolay.html [R=301,L]
+
 # Handle missing language pages
 RewriteRule ^hi/about$ /hi/about.html [R=301,L]
 RewriteRule ^hi/contact$ /hi/contact.html [R=301,L]
