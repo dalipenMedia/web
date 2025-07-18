@@ -1,3 +1,21 @@
 User-agent: *
+Allow: /
+
+# Disallow admin and private areas
 Disallow: /admin/
+Disallow: /.well-known/
+Disallow: /css/
+Disallow: /js/
+Disallow: /res/
+
+# Allow important files
+Allow: /sitemap.xml
+Allow: /robots.txt
+Allow: /favicon.ico
+Allow: /favicon.webp
+
+# Sitemap location
 Sitemap: https://www.dalipen.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1

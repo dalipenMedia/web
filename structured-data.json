@@ -1,0 +1,111 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.dalipen.com/#organization",
+      "name": "Dalipen",
+      "url": "https://www.dalipen.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.dalipen.com/res/logo/64.webp",
+        "width": 64,
+        "height": 64
+      },
+      "sameAs": [
+        "https://twitter.com/dalipen",
+        "https://www.linkedin.com/company/dalipen"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "administrator@dalipen.com",
+        "contactType": "customer service"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2020 N ACADEMY BLVD, STE 261 #1112",
+        "addressLocality": "Colorado Springs",
+        "addressRegion": "CO",
+        "postalCode": "80909",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.dalipen.com/#website",
+      "url": "https://www.dalipen.com",
+      "name": "Dalipen",
+      "description": "AI-powered video maker and multimedia tools",
+      "publisher": {
+        "@id": "https://www.dalipen.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.dalipen.com/search?query={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": ["en", "hi", "zh", "pt"]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Kolay Video Maker",
+      "description": "AI-driven video editing app for creating professional-quality short videos and vlogs",
+      "url": "https://www.dalipen.com/kolay.html",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Android, iOS",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "publisher": {
+        "@id": "https://www.dalipen.com/#organization"
+      }
+    },
+    {
+      "@type": "WebApplication",
+      "name": "Dalipen AI Chat",
+      "description": "AI-powered chat application for video creation assistance",
+      "url": "https://chat.dalipen.com",
+      "applicationCategory": "CommunicationApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "publisher": {
+        "@id": "https://www.dalipen.com/#organization"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Dalipen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dalipen is an AI-powered platform that provides video creation and multimedia tools, including digital humans, text-to-speech, speech-to-text, and video generation using GLM and Stable Diffusion technology."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Kolay Video Maker?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kolay is a powerful AI-driven video editing app that enables users to create professional-quality short videos and vlogs easily on their mobile devices with over 8,000 templates and 1,000+ music tracks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I contact Dalipen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can contact Dalipen via email at administrator@dalipen.com or through our contact page. We typically respond within 24 hours."
+          }
+        }
+      ]
+    }
+  ]
+} 
